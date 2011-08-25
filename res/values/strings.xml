@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menuReservar"> Reservar</string>
+    <string name="hello">Hello World, testActivity!</string>
+    <string name="app_name">Mi Biblioteca Movil</string>
+<string name="login">Registrarse</string>
+<string name="user">Usuario:</string>
+<string name="pass">Contraseña:</string>
+<string name="btnIngresar">Ingresar</string>
+<string name="btnRealizarBusqueda">Realizar Busqueda</string>
+<string name="btnRealizarReserva">Realizar Reserva</string>
+<string name="btnCancelarReserva">Cancelar Reserva</string>
+<string name="btnListadoReservas">Listado de Reservas</string>
+<string name="btnListadoVencimientos">Listado de Vencimientos</string>
+<string name="btnBuscar">Buscar</string>
+<string name="btnBusquedaAvanzada">Busqueda Avanzada</string>
+<string name="buscar">Buscar:</string>
+<string name="byiz">Por:</string>
+<string name="rbtnAutor">Autor</string>
+<string name="rbtnCategoria">Categoria</string>
+<string name="rbtnTitulo">Titulo</string>
+<string name="utn">UNIVERSIDAD TECNOLOGICA NACIONAL</string>
+<string name="app_notification_id">ID DE LA NOTIFICACION</string>
+<string name="uriPrestamosActivos">http://biblioVirtual.no-ip.org/BibliotecaVirtual/resources/prestamosActivos</string>
+<string name="uriPrestamosVencidos">http://biblioVirtual.no-ip.org/BibliotecaVirtual/resources/prestamosVencidos</string>
+
+<string name="uriLogin">http://biblioVirtual.no-ip.org/BibliotecaVirtual/resources/login</string>
+<string name="uriConsulta">http://biblioVirtual.no-ip.org/BibliotecaVirtual/resources/catalogo</string>
+
+
+<string name="uriLoginIP">http://190.136.210.91:8080/BibliotecaVirtual/resources/login</string>
+<string name="uriConsultaIP">http://190.136.210.91:8080/BibliotecaVirtual/resources/catalogo</string>
+<string name="uriReservar">http://190.136.210.91:8080/BibliotecaVirtual/resources/registrarReserva</string>
+
+<string name="ComCon">Comienza Con</string>
+<string name="byder">Criterio de busqueda:</string>
+<string name="algpal">Alguna Palabra</string>
+<string name="fraexa">Frase Exacta</string>
+<string name="mas">..Mas?......</string>
+
+<string name="facultad">FACULTAD REGIONAL RESISTENCIA</string>
+<string name="sistema">Sistema Biblioteca Movil - versión Beta</string>
+<string name="estado">Estado de Cuenta:</string>
+<string name="estadoCoop">Cooperadora:</string>
+<string name="habilitado">Habilitado</string>
+<string name="inhabilitado">Inhabilitado</string>
+<string name="estadoVenc">Vencimientos:</string>
+</resources>

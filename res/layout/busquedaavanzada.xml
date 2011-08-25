@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+
+<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/buscar"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/txtAbuscarAvanzado"></EditText>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="wrap_content"><RadioGroup android:id="@+id/RadioGroup01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/byiz"></TextView><RadioButton android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/rbtnAutor" android:text="@string/rbtnAutor"></RadioButton>
+<RadioButton android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/rbtnCategoria" android:id="@+id/rbtnCategoria"></RadioButton>
+<RadioButton android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/rbtnTitulo" android:text="@string/rbtnTitulo"></RadioButton>
+
+</RadioGroup><RadioGroup android:id="@+id/RadioGroup02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/byder" android:text="@string/byder"></TextView><RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/algpal" android:id="@+id/rbtnalgpal"></RadioButton>
+
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fraexa" android:id="@+id/rbtnfraexa"></RadioButton>
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/rbtnComCon" android:text="@string/ComCon"></RadioButton>
+</RadioGroup>
+</LinearLayout><Button android:layout_height="wrap_content" android:text="@string/btnBuscar" android:layout_width="fill_parent" android:id="@+id/btnAbuscarAvanzada"></Button>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<ImageView android:id="@+id/ImageView01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center" android:background="@drawable/logoutn">
+	</ImageView>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/utn" 
+	    android:textStyle="bold" 
+	    android:layout_gravity="center" 
+	    android:gravity="center">
+	</TextView>
+	<TextView android:id="@+id/TextView03" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent" 
+	    android:textStyle="bold" 
+	    android:gravity="center" android:text="@string/facultad">
+	</TextView>
+	<TextView android:id="@+id/TextView04" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:gravity="center" android:text="@string/sistema">
+	</TextView>
+	<LinearLayout android:id="@+id/LinearLayout01" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:orientation="vertical">
+		<TextView android:id="@+id/TextView01" 
+			android:layout_height="wrap_content" 
+			android:text="@string/user" 
+			android:layout_width="fill_parent">
+		</TextView>
+		<EditText android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/txtUser">
+		</EditText>
+		<TextView android:id="@+id/TextView02" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:text="@string/pass">
+		</TextView>
+	
+		<EditText android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/txtPass" 
+			android:password="true">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout02" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent">
+		<Button android:layout_height="wrap_content" 
+			android:text="@string/btnIngresar" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/btnIngresar">
+		</Button>
+	</LinearLayout>
+</LinearLayout>
