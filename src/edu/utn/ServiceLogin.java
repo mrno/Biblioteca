@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
 import android.widget.Toast;
+import edu.utn.frre.R;
 
 public class ServiceLogin extends  Service {
 	private static final String TAG = "ServiceLogin";

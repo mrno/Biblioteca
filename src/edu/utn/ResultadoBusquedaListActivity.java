@@ -23,6 +23,7 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.AdapterContextMenuInfo;
+import edu.utn.frre.R;
 
 public class ResultadoBusquedaListActivity extends ListActivity
 {

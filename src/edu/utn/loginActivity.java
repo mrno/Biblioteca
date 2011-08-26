@@ -31,7 +31,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
+import edu.utn.frre.R;
 public class loginActivity extends Activity {
     /** Called when the activity is first created. */
 	public static final String PARAM_PASSWORD = "password";

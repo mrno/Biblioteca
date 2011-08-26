@@ -1,7 +1,7 @@
 package edu.utn;
 
 import org.json.JSONException;
-
+import edu.utn.frre.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
+
 
 public class BusquedaAvanzaActivity extends Activity {
 	private Bundle miBundle;
@@ -31,10 +32,10 @@ public class BusquedaAvanzaActivity extends Activity {
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				rbtnTitulo = (RadioButton) findViewById(R.id.rbtnTitulo);
-				rbtnCategoria = (RadioButton) findViewById(R.id.rbtnCategoria);
-				rbtnFraExa = (RadioButton) findViewById(R.id.rbtnfraexa);
-				rbtnComCon = (RadioButton) findViewById(R.id.rbtnComCon);
+				rbtnTitulo = (RadioButton)findViewById(R.id.rbtnTitulo);
+				rbtnCategoria =(RadioButton) findViewById(R.id.rbtnCategoria);
+				rbtnFraExa =  (RadioButton) findViewById(R.id.rbtnfraexa);
+				rbtnComCon =  (RadioButton) findViewById(R.id.rbtnComCon);
 			BuscarTodo();
 			}
 		});
@@ -53,7 +54,7 @@ public class BusquedaAvanzaActivity extends Activity {
 	private void BuscarTodo(){
 		DBHelper = new BiblioContentProvider(this);
 		DBHelper.open();
-		TextView txtAbuscar = (TextView) findViewById(R.id.txtAbuscarAvanzado);
+		TextView txtAbuscar = (TextView)findViewById(R.id.txtAbuscarAvanzado);
 		miBundle = new Bundle();
 		
 		if (rbtnFraExa.isChecked()){

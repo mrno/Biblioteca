@@ -29,8 +29,7 @@ import android.widget.Button;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
-import edu.utn.frre.BiblioContentProvider;
-import edu.utn.frre.BiblioContentProvider;
+import edu.utn.frre.R;
 
 public class BusquedaActivity extends Activity {
 	//private BiblioContentProvider DBHelper;

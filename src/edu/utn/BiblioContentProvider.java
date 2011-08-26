@@ -12,7 +12,6 @@ import org.apache.http.HttpResponse;
 import org.apache.http.ParseException;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -21,12 +20,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import edu.utn.frre.BiblioContentProvider;
+import edu.utn.frre.R;
 
-import android.R;
+
 import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.database.SQLException;
@@ -34,7 +32,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
+
+
+
 public class BiblioContentProvider {
 	private final Context mCtx;
 	    public static final String KEY_TITULO = "titulo";
@@ -175,14 +175,12 @@ public class BiblioContentProvider {
 			    	String tipoBusqueda = datosBusqueda.getString("tipoBusqueda").toString();
 			    	String aBuscar = datosBusqueda.getString("aBuscar").toString();
 			    	String filtroBusqueda = datosBusqueda.getString("filtro").toString();
-			    	
+			    	//asi nomas...esto es una prueba para el GIT
 			    	String offset = Long.toString(CantRows());
 			    	datosQueVan =tipoBusqueda + "," +filtroBusqueda+  "," + aBuscar +"," + offset;
 			    	HttpClient httpClient = new DefaultHttpClient();
 			    	String url = mCtx.getString(R.string.uriConsultaIP);
-			    	//String url = "http://biblioVirtual.no-ip.org/BibliotecaVirtual/resources/catalogo";
-			    	//String url = "http://192.168.0.103:8080/BibliotecaVirtual/resources/catalogo";
-
+			    	
 			    	HttpPost httpH = new HttpPost(url);
 			    	try {
 						httpH.setEntity(new StringEntity(datosQueVan));
