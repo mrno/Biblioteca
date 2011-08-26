@@ -30,7 +30,7 @@ public class ServiceLogin extends  Service {
 	private NotificationManager notificationMgr;
 private Intent miIntent;
 
-	
+	//HOLA MUNDO
 	@Override
 	public IBinder onBind(Intent arg0) {
 		// TODO Auto-generated method stub

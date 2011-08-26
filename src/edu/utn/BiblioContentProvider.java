@@ -61,7 +61,7 @@ public class BiblioContentProvider {
 		
 		    private static class DatabaseHelper extends SQLiteOpenHelper {
 		    	
-
+//MUAJAJA
 		    	
 		        DatabaseHelper(Context context) {
 		            super(context, DATABASE_NAME, null, DATABASE_VERSION);
