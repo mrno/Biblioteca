@@ -47,7 +47,7 @@ public class loginActivity extends Activity {
 		super.onStart();
 		  txtUser = (EditText) findViewById(R.id.txtUser);
 	       txtPass = (EditText) findViewById(R.id.txtPass);
-        
+        //agrego estas lineas desde la IDE para ver que onda
         Button btnIngresar = (Button) findViewById(R.id.btnIngresar);
         
         btnIngresar.setOnClickListener(new OnClickListener() {
